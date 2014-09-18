@@ -1,0 +1,37 @@
+{
+    "name" : "Wakf Board",
+    "version" : "0.1",
+    "depends" : ['sale','account','base','hr'],
+    "author" : "Novasoft Consultancy Services Pvt. Ltd.",
+    'category' : 'Generic Modules/Others',
+    "description": """Wakf Board - Registration & Sale Module
+    
+    """,
+    'website': 'http://www.novasoftindia.com',
+    'data': ['BJ_search.xml',
+             'sws_scholar_criteria.xml',
+             'earned_leave.xml',
+             'showcause_view.xml',
+             'revenue_recovery_view.xml',
+             'Arrear_list_view.xml',
+             'BJ_slab_view.xml',
+             'new_assessment_view.xml',
+             'invoice_inherit_view.xml',
+             'sale_inherit_view.xml',
+             'sale_order_view.xml',  
+             'wakf_immovable_property_view.xml',
+             'wakf_location_view.xml',
+             'wakf_management_view.xml',
+             'wakf_movable_property_view.xml',
+             'wakf_type_view.xml',
+             'sws_criteria.xml',
+             'sws_registration.xml',
+             'scholar_sanction_criteria_view.xml',
+             'BJ_assessment_view.xml',],
+    'demo': [],
+    'installable': True,
+    'auto_install': False,
+    'application': True,
+
+}
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
